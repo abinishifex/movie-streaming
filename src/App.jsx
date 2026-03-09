@@ -10,12 +10,12 @@ function App() {
 },
  {
     id: 2,
-      title:"Avatar", 
+    title:"Avatar", 
     image: "https://image.tmdb.org/t/p/w500/t6HIqrRAclMCA60NsSmeqe9RmNV.jpg"
 },
  {
     id:3,
-      title:"Batman", 
+    title:"Batman", 
     image: "https://image.tmdb.org/t/p/w500/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg"
 },
 

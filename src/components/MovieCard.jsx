@@ -1,6 +1,6 @@
 function MovieCard({id,title, image}){
 return(
-    <div class-lgName="bg-gray-900 rounded overflow-hidden shadow">
+    <div class-lgName="bg-gray-900 rounded overflow-hidden shadow-lg transform  hover:scale-105 transition ">
 
         <img 
         key={id}
