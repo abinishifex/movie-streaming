@@ -7,8 +7,8 @@ function Navbar(){
         
         <nav className="bg-gray-950 text-white flex justify-between item-center p-4 ">
         <div>
-        <h1 className="font-bold text-2xl">
-            Movie Stream
+        <h1 className="font-bold text-2xl ml-3">
+            Ged Z Movie 
         </h1>
         </div>
         <div>
@@ -18,6 +18,8 @@ function Navbar(){
         <div className="text-bold text-white flex gap-4 mr-20">
             <Link>Home</Link>
             <Link>Favorite</Link>
+            <Link>About</Link>
+
         </div>
     
 
