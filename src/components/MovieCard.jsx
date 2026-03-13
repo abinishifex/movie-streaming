@@ -9,7 +9,7 @@ return(
         className="w-full rounded"/>
 
         
-        <h2 className="text-white p-2 text-center">
+        <h2 className="text-white text-xl p-2 text-center">
             {title}
         </h2>
     </div>
