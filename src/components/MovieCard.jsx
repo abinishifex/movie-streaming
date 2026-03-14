@@ -1,7 +1,10 @@
+import { Link } from "react-router-dom";
+
 function MovieCard({id,title, image}){
 return(
+    <Link to={`/movie/${id}`} >
     <div class-lgName="bg-gray-900 rounded overflow-hidden shadow-lg transform  hover:scale-105 transition ">
-
+        
         <img 
         key={id}
         src={image} 
@@ -12,7 +15,9 @@ return(
         <h2 className="text-white text-xl p-2 text-center">
             {title}
         </h2>
+
     </div>
+    </Link>
 );
 }
 
