@@ -18,7 +18,7 @@ function MoviesDetail(){
         return <div className="text-black">Loading...</div>
     }
 return (
-    <div className="text-black p-6">
+    <div className="bg-gray-950 text-white min-h-screen">
         <img src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`} alt={movie.title} />
        
        <h1 className="text-3xl font-bold mt-4">
