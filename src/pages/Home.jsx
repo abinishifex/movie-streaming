@@ -24,6 +24,7 @@ return(
   {movies.map((movie) => (
     <MovieCard
     key={movie.id}
+    id={movie.id}
     title={movie.title}
     image={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}
     />
